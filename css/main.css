@@ -294,7 +294,8 @@ body {
   width: 100vw;
 }
 .location-menu__city {
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 500;
   margin-bottom: 3px;
 }
 .location-menu__btn {
@@ -313,7 +314,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 500;
 }
 .grade-menu::after {
   content: "";
@@ -382,7 +384,7 @@ body {
 .info-popup {
   display: none;
   position: absolute;
-  bottom: -302%;
+  bottom: -440%;
   left: 0;
   width: 90%;
   min-height: 100%;
@@ -452,32 +454,35 @@ body {
           transform: rotate(-45deg);
 }
 .info-popup__body {
-  padding: 10px;
+  padding: 10px 13px 10px 10px;
 }
 .info-popup__title {
-  font-size: 18px;
-  margin-bottom: 3px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 .info-popup__title_yellow {
   color: #ffd200;
 }
 .info-popup__subtitle {
   font-size: 10px;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
 }
 .info-popup__text {
   font-size: 9px;
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 6px;
+  margin-bottom: 20px;
 }
 .info-popup__text_sm {
   font-size: 8px;
+  margin-bottom: 0px;
 }
 
 /* =========================================================================== */
 .nav-menu {
   position: relative;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 500;
 }
 .nav-menu::after {
   content: "";
@@ -530,7 +535,8 @@ body {
 }
 .contact__number {
   display: block;
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 500;
   color: #fff;
   margin-bottom: 3px;
 }

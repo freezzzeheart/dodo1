@@ -198,7 +198,8 @@ body{
     }
 
     &__city{
-        font-size: 15px;
+        font-size: 18px;
+        font-weight: 500;
         margin-bottom: 3px;
     }
 
@@ -216,7 +217,8 @@ body{
     display: flex;
     align-items: center;
     position: relative;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 500;
     
     &::after{
         content: '';
@@ -282,7 +284,7 @@ body{
     &-popup{
         display: none;
         position: absolute;
-        bottom: -302%;
+        bottom: -440%;
         left: 0;
         width: 90%;
         min-height: 100%;
@@ -348,12 +350,13 @@ body{
         }
 
         &__body{
-            padding: 10px;
+            padding: 10px 13px 10px 10px;
         }
 
         &__title{
-            font-size: 18px;
-            margin-bottom: 3px;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 10px;
 
             &_yellow{
                 color: #ffd200;
@@ -362,16 +365,17 @@ body{
 
         &__subtitle{
             font-size: 10px;
-            margin-bottom: 3px;
+            margin-bottom: 10px;
         }
 
         &__text{
             font-size: 9px;
             color: rgba(#fff, .7);
-            margin-bottom: 6px;
+            margin-bottom: 20px;
 
             &_sm{
                 font-size: 8px;
+                margin-bottom: 0px;
             }
         }
     }
@@ -381,7 +385,8 @@ body{
 
 .nav-menu{
     position: relative;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 500;
 
     &::after{
         content: '';
@@ -424,7 +429,8 @@ body{
 
     &__number{
         display: block;
-        font-size: 15px;
+        font-size: 18px;
+        font-weight: 500;
         color: #fff;
         margin-bottom: 3px;
     }
